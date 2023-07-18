@@ -12,6 +12,7 @@
 		A2EE4CAC2A66DF0100653B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EE4CAB2A66DF0100653B0B /* Assets.xcassets */; };
 		A2EE4CAF2A66DF0100653B0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EE4CAE2A66DF0100653B0B /* Preview Assets.xcassets */; };
 		A2EE4CB62A66DFA800653B0B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE4CB52A66DFA800653B0B /* ToDoItem.swift */; };
+		A2EE4CB82A6709E000653B0B /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE4CB72A6709E000653B0B /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A2EE4CAB2A66DF0100653B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2EE4CAE2A66DF0100653B0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2EE4CB52A66DFA800653B0B /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		A2EE4CB72A6709E000653B0B /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 		A2EE4CA62A66DF0000653B0B /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				A2EE4CB52A66DFA800653B0B /* ToDoItem.swift */,
 				A2EE4CA72A66DF0000653B0B /* ToDoListApp.swift */,
 				A2EE4CA92A66DF0000653B0B /* ContentView.swift */,
-				A2EE4CB52A66DFA800653B0B /* ToDoItem.swift */,
+				A2EE4CB72A6709E000653B0B /* NewToDoView.swift */,
 				A2EE4CAB2A66DF0100653B0B /* Assets.xcassets */,
 				A2EE4CAD2A66DF0100653B0B /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				A2EE4CAA2A66DF0000653B0B /* ContentView.swift in Sources */,
 				A2EE4CA82A66DF0000653B0B /* ToDoListApp.swift in Sources */,
 				A2EE4CB62A66DFA800653B0B /* ToDoItem.swift in Sources */,
+				A2EE4CB82A6709E000653B0B /* NewToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
